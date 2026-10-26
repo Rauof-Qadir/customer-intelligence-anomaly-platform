@@ -1,0 +1,42 @@
+{
+  "CASH_IN": {
+    "rows": 1399284,
+    "origin_increased": 1399251,
+    "origin_decreased": 0,
+    "origin_unchanged": 33,
+    "expected_direction_mismatch": 0,
+    "fraud_labeled_rows": 0
+  },
+  "CASH_OUT": {
+    "rows": 2237500,
+    "origin_increased": 2,
+    "origin_decreased": 1211697,
+    "origin_unchanged": 1025801,
+    "expected_direction_mismatch": 2,
+    "fraud_labeled_rows": 4116
+  },
+  "DEBIT": {
+    "rows": 41432,
+    "origin_increased": 0,
+    "origin_decreased": 35274,
+    "origin_unchanged": 6158,
+    "expected_direction_mismatch": 0,
+    "fraud_labeled_rows": 0
+  },
+  "PAYMENT": {
+    "rows": 2151495,
+    "origin_increased": 0,
+    "origin_decreased": 1377250,
+    "origin_unchanged": 774245,
+    "expected_direction_mismatch": 0,
+    "fraud_labeled_rows": 0
+  },
+  "TRANSFER": {
+    "rows": 532909,
+    "origin_increased": 0,
+    "origin_decreased": 250109,
+    "origin_unchanged": 282800,
+    "expected_direction_mismatch": 0,
+    "fraud_labeled_rows": 4097
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "CASH_IN": {
+    "rows": 1399284,
+    "zero_amount_rows": 0,
+    "sender_balance_mismatches": 1399284,
+    "receiver_balance_mismatches": 1399284,
+    "sender_balance_unchanged": 33,
+    "receiver_balance_unchanged": 160005
+  },
+  "CASH_OUT": {
+    "rows": 2237500,
+    "zero_amount_rows": 16,
+    "sender_balance_mismatches": 1991269,
+    "receiver_balance_mismatches": 507426,
+    "sender_balance_unchanged": 1025801,
+    "receiver_balance_unchanged": 1618
+  },
+  "DEBIT": {
+    "rows": 41432,
+    "zero_amount_rows": 0,
+    "sender_balance_mismatches": 12462,
+    "receiver_balance_mismatches": 9631,
+    "sender_balance_unchanged": 6158,
+    "receiver_balance_unchanged": 0
+  },
+  "PAYMENT": {
+    "rows": 2151495,
+    "zero_amount_rows": 0,
+    "sender_balance_mismatches": 1165894,
+    "receiver_balance_mismatches": 2151495,
+    "sender_balance_unchanged": 774245,
+    "receiver_balance_unchanged": 2151495
+  },
+  "TRANSFER": {
+    "rows": 532909,
+    "zero_amount_rows": 0,
+    "sender_balance_mismatches": 508782,
+    "receiver_balance_mismatches": 120811,
+    "sender_balance_unchanged": 282800,
+    "receiver_balance_unchanged": 4174
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "file_name": "transactions.csv",
+  "file_size_mb": 470.67,
+  "total_rows": 6362620,
+  "total_columns": 11,
+  "columns": [
+    "step",
+    "type",
+    "amount",
+    "nameOrig",
+    "oldbalanceOrg",
+    "newbalanceOrig",
+    "nameDest",
+    "oldbalanceDest",
+    "newbalanceDest",
+    "isFraud",
+    "isFlaggedFraud"
+  ],
+  "detected_dtypes": {
+    "step": "int64",
+    "type": "str",
+    "amount": "float64",
+    "nameOrig": "str",
+    "oldbalanceOrg": "float64",
+    "newbalanceOrig": "float64",
+    "nameDest": "str",
+    "oldbalanceDest": "float64",
+    "newbalanceDest": "float64",
+    "isFraud": "int64",
+    "isFlaggedFraud": "int64"
+  },
+  "missing_values": {
+    "step": 0,
+    "type": 0,
+    "amount": 0,
+    "nameOrig": 0,
+    "oldbalanceOrg": 0,
+    "newbalanceOrig": 0,
+    "nameDest": 0,
+    "oldbalanceDest": 0,
+    "newbalanceDest": 0,
+    "isFraud": 0,
+    "isFlaggedFraud": 0
+  },
+  "numeric_summary": {
+    "step": {
+      "count": 6362620,
+      "min": 1.0,
+      "max": 743.0,
+      "mean": 243.39724563151657
+    },
+    "amount": {
+      "count": 6362620,
+      "min": 0.0,
+      "max": 92445516.64,
+      "mean": 179861.90354913071
+    },
+    "oldbalanceOrg": {
+      "count": 6362620,
+      "min": 0.0,
+      "max": 59585040.37,
+      "mean": 833883.104074487
+    },
+    "newbalanceOrig": {
+      "count": 6362620,
+      "min": 0.0,
+      "max": 49585040.37,
+      "mean": 855113.6685785886
+    },
+    "oldbalanceDest": {
+      "count": 6362620,
+      "min": 0.0,
+      "max": 356015889.35,
+      "mean": 1100701.6665196496
+    },
+    "newbalanceDest": {
+      "count": 6362620,
+      "min": 0.0,
+      "max": 356179278.92,
+      "mean": 1224996.3982019294
+    },
+    "isFraud": {
+      "count": 6362620,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.001290820448180152
+    },
+    "isFlaggedFraud": {
+      "count": 6362620,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 2.51468734577894e-06
+    }
+  },
+  "top_categorical_values": {
+    "type": {
+      "CASH_OUT": 2237500,
+      "PAYMENT": 2151495,
+      "CASH_IN": 1399284,
+      "TRANSFER": 532909,
+      "DEBIT": 41432
+    },
+    "nameOrig": {
+      "C2098525306": 3,
+      "C400299098": 3,
+      "C1999539787": 3,
+      "C1065307291": 3,
+      "C545315117": 3,
+      "C1976208114": 3,
+      "C1784010646": 3,
+      "C1530544995": 3,
+      "C1902386530": 3,
+      "C1677795071": 3
+    },
+    "nameDest": {
+      "C1286084959": 113,
+      "C985934102": 109,
+      "C665576141": 105,
+      "C2083562754": 102,
+      "C248609774": 101,
+      "C1590550415": 101,
+      "C451111351": 99,
+      "C1789550256": 99,
+      "C1360767589": 98,
+      "C1023714065": 97
+    }
+  },
+  "duplicate_check": "Not performed yet; will be implemented separately."
+}

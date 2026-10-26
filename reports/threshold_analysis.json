@@ -1,0 +1,74 @@
+{
+  "model": "IsolationForest",
+  "validation_rows": 191147,
+  "validation_fraud_count": 1180,
+  "validation_average_precision": 0.0472273193568215,
+  "alert_budget_comparison": [
+    {
+      "threshold": 0.1551461361182932,
+      "alerts": 957,
+      "alert_rate": 0.00500661794325833,
+      "precision": 0.01671891327063741,
+      "recall": 0.013559322033898305,
+      "true_positives": 16,
+      "false_positives": 941,
+      "true_negatives": 189026,
+      "false_negatives": 1164,
+      "target_alert_budget": 0.005
+    },
+    {
+      "threshold": 0.14135258461889533,
+      "alerts": 1915,
+      "alert_rate": 0.010018467462214945,
+      "precision": 0.10496083550913839,
+      "recall": 0.17033898305084746,
+      "true_positives": 201,
+      "false_positives": 1714,
+      "true_negatives": 188253,
+      "false_negatives": 979,
+      "target_alert_budget": 0.01
+    },
+    {
+      "threshold": 0.1239624561415663,
+      "alerts": 3823,
+      "alert_rate": 0.020000313894541898,
+      "precision": 0.07873397855087627,
+      "recall": 0.25508474576271184,
+      "true_positives": 301,
+      "false_positives": 3522,
+      "true_negatives": 186445,
+      "false_negatives": 879,
+      "target_alert_budget": 0.02
+    },
+    {
+      "threshold": 0.09164638787762566,
+      "alerts": 9558,
+      "alert_rate": 0.050003400524203885,
+      "precision": 0.060577526679221595,
+      "recall": 0.4906779661016949,
+      "true_positives": 579,
+      "false_positives": 8979,
+      "true_negatives": 180988,
+      "false_negatives": 601,
+      "target_alert_budget": 0.05
+    }
+  ],
+  "selected_alert_budget": 0.02,
+  "selected_threshold": 0.1239624561415663,
+  "final_test_metrics": {
+    "threshold": 0.1239624561415663,
+    "alerts": 2167,
+    "alert_rate": 0.024221491963427447,
+    "precision": 0.14674665436086756,
+    "recall": 0.2539936102236422,
+    "true_positives": 318,
+    "false_positives": 1849,
+    "true_negatives": 86365,
+    "false_negatives": 934,
+    "average_precision": 0.09101651993157484,
+    "threshold_source": "Validation anomaly-score quantile; test not used for threshold selection"
+  },
+  "review_queue_rows": 89466,
+  "review_queue_alerts": 2167,
+  "caveat": "Anomaly alerts identify unusual behavior, not confirmed fraud. Ties in anomaly scores can make the actual alert rate differ from the target budget. source_row_id is a source-file row position, not a real-world transaction identifier."
+}

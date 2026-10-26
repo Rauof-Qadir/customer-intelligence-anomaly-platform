@@ -1,0 +1,33 @@
+{
+  "model": "IsolationForest",
+  "random_state": 42,
+  "training_sample_size": 200000,
+  "validation_rows": 191147,
+  "test_rows": 89466,
+  "features": [
+    "log_amount",
+    "log_origin_balance",
+    "log_destination_balance",
+    "origin_balance_is_zero",
+    "destination_balance_is_zero",
+    "amount_to_origin_balance_ratio",
+    "type_cash_in",
+    "type_cash_out",
+    "type_debit",
+    "type_payment",
+    "type_transfer"
+  ],
+  "threshold_source": "99th percentile of validation anomaly scores",
+  "threshold": 0.14135258461889533,
+  "test_alert_count": 1184,
+  "test_alert_rate": 0.013234077750206782,
+  "test_fraud_count": 1252,
+  "test_precision": 0.1875,
+  "test_recall": 0.17731629392971246,
+  "test_average_precision": 0.09101651993157484,
+  "true_positives": 222,
+  "false_positives": 962,
+  "true_negatives": 87252,
+  "false_negatives": 1030,
+  "interpretation": "Anomaly scores indicate unusual patterns, not confirmed fraud."
+}

@@ -1,0 +1,26 @@
+{
+  "file_name": "transactions.csv",
+  "total_rows": 6362620,
+  "zero_amount_rows": 16,
+  "negative_amount_rows": 0,
+  "negative_balance_rows": 0,
+  "invalid_step_rows": 0,
+  "invalid_fraud_label_rows": 0,
+  "invalid_flag_label_rows": 0,
+  "sender_balance_mismatch_rows": 2500051,
+  "receiver_balance_mismatch_rows": 1399284,
+  "cash_out_direction_mismatch_rows": 2,
+  "checks": {
+    "required_columns": "Passed",
+    "zero_amounts": "Investigate; not automatically invalid",
+    "balance_mismatches": "Diagnostic only; investigate before drawing conclusions",
+    "cash_out_direction_mismatches": "Investigation candidates; not confirmed errors or fraud",
+    "duplicate_rows": "Not checked yet"
+  },
+  "validation_summary": {
+    "negative_amounts_found": false,
+    "negative_balances_found": false,
+    "invalid_steps_found": false,
+    "invalid_labels_found": false
+  }
+}
